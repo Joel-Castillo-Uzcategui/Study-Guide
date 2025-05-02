@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt                                                                - Plotting
+  plt.subplot(Row, column, position[right to left, then down])                                 - Determines position of plot
+  plt.plot([x], y, [fmt]=optional format string, [x2], y2, [fmt2], ...)                        - Determines what is plotted
+  plt.bar/scatter(x,y)                                                                         -Makes a bar or scatter plot
+  plt.show()
+  plt.axis(xmin, xmax, ymin, ymax)
+  plt.title
+  plt.x/ylabel
+  plt.text(x, y, text, font)
+  plt.grid
+  plt.xticks(min, max, step size)
+  plt.annotate("text", xy=(x, y), xytext=(x, y), arrowprops=dict(facecolor='black', shrink=0.05))
+
+
+import numpy as np                                                                             - Math
+  np."funciton"                                                                                - Makes basic functions like add, abs, round
+  np.array(x, y, z)                                                                            - Makes array
+  np.arange(start, stop, steps)                                                                - Makes evenly spaced array
+  np.linspace(start, stop, steps)                                                              - Makes evenly spaced row of numbers
+  np."statistics"                                                                              - Finds statistical values like mean, var, cumsum
+
+
+import pandas as pd                                                                            - Working with excel files, CSV, JSON, HTML, CSS
+df=pd.read_excel("file location.xlsx")
+df.iloc(row-1, column-1), where : is x to y
