@@ -1,3 +1,9 @@
+import os
+  os("clear")                                                                                  -Clears terminal
+
+import time
+  time.sleep(time in sec)
+
 import matplotlib.pyplot as plt                                                                - Plotting
   plt.subplot(Row, column, position[right to left, then down])                                 - Determines position of plot
   plt.plot([x], y, [fmt]=optional format string, [x2], y2, [fmt2], ...)                        - Determines what is plotted
@@ -18,6 +24,7 @@ import numpy as np                                                              
   np.arange(start, stop, steps)                                                                - Makes evenly spaced array
   np.linspace(start, stop, steps)                                                              - Makes evenly spaced row of numbers
   np."statistics"                                                                              - Finds statistical values like mean, var, cumsum
+  np.where(condition, value_if_true, value_if_false)
 
 
 import pandas as pd                                                                            - Working with excel files, CSV, JSON, HTML, CSS
