@@ -1,5 +1,8 @@
+General
+  \330[?25l or [?25h                                                                           - Removes/adds white box
+
 import os
-  os("clear")                                                                                  -Clears terminal
+  os("clear")                                                                                  - Clears terminal
 
 import time
   time.sleep(time in sec)
@@ -7,7 +10,7 @@ import time
 import matplotlib.pyplot as plt                                                                - Plotting
   plt.subplot(Row, column, position[right to left, then down])                                 - Determines position of plot
   plt.plot([x], y, [fmt]=optional format string, [x2], y2, [fmt2], ...)                        - Determines what is plotted
-  plt.bar/scatter(x,y)                                                                         -Makes a bar or scatter plot
+  plt.bar/scatter(x,y)                                                                         - Makes a bar or scatter plot
   plt.show()
   plt.axis(xmin, xmax, ymin, ymax)
   plt.title
